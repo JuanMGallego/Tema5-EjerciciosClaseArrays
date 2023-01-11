@@ -7,7 +7,7 @@ public class Ejercicio05 {
 
 	public static void main(String[] args) {
 		
-		int ranking[] = new int[7];
+		int ranking[] = new int[8];
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -23,6 +23,7 @@ public class Ejercicio05 {
 		
 		System.out.println();
 		System.out.println("Ranking de mayor puntuación a menor: ");
+		System.out.println();
 		
 		for (int i = ranking.length - 1 ; i >= 0 ; i--) {
 			
